@@ -1,12 +1,19 @@
 # Research Notebook
 
-**Rerun a local experiment with declared bytes, an explicit environment and a readable before/after.**
+When a command produces a different result, terminal history may not tell you which input file or setting changed. This notebook records the program, chosen inputs, arguments and selected settings alongside the output, making repeat runs easier to inspect.
 
-[Live feature showcase](https://az9713.github.io/rea-warp-research/) · [Download Windows x64 prerelease](https://github.com/az9713/rea-warp-research/releases/tag/v0.1.0) · [Executed test evidence](artifacts/core-tests.json)
+You ran a data-processing command last week and want to compare it with today's run. Copying the old command is only part of the story: the program, input file or settings may now be different. You need a record of the conditions you deliberately chose to track.
+
+**Example:** The included program processes the numbers 3, 6 and 9. One run uses a multiplier of 2; another uses 3. The notebook keeps both results and shows the changed setting. Timing and existing output-file state also differ, so this is a small illustration, not a controlled performance benchmark.
+
+**What you install:** A separate Windows command notebook and command-line tool.
+
+**Current scope:** This is independent software, not a modified Warp terminal. It does not reproduce interactive terminal sessions, SSH connections or Warp's cloud features. Recording selected conditions cannot guarantee identical future results.
+
+[Live guide](https://az9713.github.io/rea-warp-research/) · [Download packages](https://github.com/az9713/rea-warp-research/releases/tag/v0.1.0)
 
 ![Actual native app after two explicit synthetic runs](docs/screenshots/native-before-after.png)
 
-Research Notebook is an original native Windows application and CLI produced by the REA project portfolio. This deliverable is an **independent implementation**, not a patched Warp executable. It uses an inspectable C# execution engine; no vendor code was recovered. The release is experimental.
 
 ## Try the change in two minutes
 
