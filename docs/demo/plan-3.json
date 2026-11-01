@@ -1,0 +1,23 @@
+{
+  "Spec": {
+    "Schema": 1,
+    "Executable": "NotebookFixture.exe",
+    "ExecutableSha256": "6752391281c44b99e325c7d643659e9a4345c1f69efd38d3ef625831050c2581",
+    "Arguments": [
+      "compute",
+      "demo/input.json",
+      "demo/result.json"
+    ],
+    "Inputs": {
+      "demo/input.json": "35c2cde4f2e3b9d00c7f2fe942b2f8e573a0800fd20e0326cfb3e5130839183d"
+    },
+    "Outputs": [
+      "demo/result.json"
+    ],
+    "Environment": {
+      "REA_FACTOR": "3"
+    },
+    "TimeoutMs": 5000
+  },
+  "Sha256": "d8c0da873b484fb669451abf7f7061431f5eb07e292e976222b21da85b5d7c40"
+}

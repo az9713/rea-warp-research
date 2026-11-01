@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Exact extracted runtime file hashes match publication allowlist",
+    "Self-contained extracted CLI actually ran both fixture factors",
+    "Extracted CLI verified both full plan/receipt envelopes",
+    "Existing evidence destination refused before command launch",
+    "Changed-input CLI preview returned nonzero refusal",
+    "Extracted native GUI clicked Prepare/Preview/Run twice and confirmed changed output"
+  ],
+  "native_GUI_checks": 8,
+  "installed_Warp_used": false
+}

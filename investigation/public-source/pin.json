@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/warpdotdev/warp",
+  "commit": "d57d9760dba0590416eca4c94379ce7653f347b5",
+  "accessed": "2026-10-31",
+  "references": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/warpdotdev/warp/blob/d57d9760dba0590416eca4c94379ce7653f347b5/README.md",
+      "sha256": "9fad485973685dd86187fafd517b02121695a9cf6729c1bb96ad45b19a94b09b",
+      "httpStatus": 200,
+      "localBytesMatchPinnedPublicSource": true
+    },
+    {
+      "path": "Cargo.toml",
+      "url": "https://github.com/warpdotdev/warp/blob/d57d9760dba0590416eca4c94379ce7653f347b5/Cargo.toml",
+      "sha256": "98a7696ced9fc1bafd76be0fa99d217d642d71894e5b48984d22b6d2d77ac7f0",
+      "httpStatus": 200,
+      "localBytesMatchPinnedPublicSource": true
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "url": "https://github.com/warpdotdev/warp/blob/d57d9760dba0590416eca4c94379ce7653f347b5/rust-toolchain.toml",
+      "sha256": "8008c4269290b7fb62f8d4cc8b5638cb86298f336721ba9f839110474756e85e",
+      "httpStatus": 200,
+      "localBytesMatchPinnedPublicSource": true
+    },
+    {
+      "path": "script/windows/bootstrap.ps1",
+      "url": "https://github.com/warpdotdev/warp/blob/d57d9760dba0590416eca4c94379ce7653f347b5/script/windows/bootstrap.ps1",
+      "sha256": "7f93ee7cdeb72a1d74a1e17eee4f5ec9c3e19dee6287c703862639941905f5fd",
+      "httpStatus": 200,
+      "localBytesMatchPinnedPublicSource": true
+    }
+  ]
+}

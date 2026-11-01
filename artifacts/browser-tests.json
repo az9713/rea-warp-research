@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": [
+    "Actual baseline/candidate native output values rendered",
+    "WebCrypto verified both captured stdout byte commitments and one-factor plan difference",
+    "Recorded-run selector displays actual candidate receipt",
+    "Actual native screenshot loads",
+    "Changed stdout commitment visibly rejected",
+    "Additional plan difference rejected instead of mislabeled one-factor",
+    "390px layout has no page overflow",
+    "No JavaScript page errors"
+  ],
+  "tested_files": {
+    "scripts/browser-test.cjs": "05cf55599c59cf8729ce636066c2e08ba73387dac34ef82b76b0328a06f548cf",
+    "docs/index.html": "7f19b16ecdc45b87aa16b4e2b71ea46564e89dae80db9d38b3875057ca0bd8dd",
+    "docs/style.css": "b26be56fb24390f4f871bff46ffd878f3828ddc3ef5fe2d153c66cacd6cb6cf5",
+    "docs/demo.js": "c96f033ddad1aa1df94ebfd0e787bbf264b63c4f8fc987e8d7f8e9b2a8b2394d",
+    "docs/demo/plan-2.json": "bc1817cbf97895048a11c1b212c8eb34885b6e836f888f7a07600cf86a8e6516",
+    "docs/demo/plan-3.json": "c833cc053425098ca38b0733e68ea4dbc522fa0be2642f1354bf7c7e83f9bc66",
+    "docs/demo/receipt-2.json": "eb8e92643bb4182c0a5ac2613aeb4f066b78d8784a6da49399efd9746aaf6b1e",
+    "docs/demo/receipt-3.json": "b46e146be17df49dd1aa31f6d9249057e82d998e7212890e70ed6a956eec7902",
+    "docs/screenshots/native-before-after.png": "279ea78b6376a125b556f2f558bc2fc6f34fb1c412961412c21549e349d120b6"
+  },
+  "scope": "Recorded native receipts; browser verifies captured stdout commitments. No command executes in browser."
+}

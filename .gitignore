@@ -1,0 +1,11 @@
+.runtime/
+releases/*-win-x64/
+releases/*.zip
+releases/*.sha256
+investigation/*.private.json
+handoff.json
+publication.json
+artifacts/private/
+artifacts/*.private.json
+docs/**/*.error.txt
+node_modules/

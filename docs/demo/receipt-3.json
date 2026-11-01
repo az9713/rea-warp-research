@@ -1,0 +1,33 @@
+{
+  "Receipt": {
+    "Schema": 1,
+    "PlanSha256": "d8c0da873b484fb669451abf7f7061431f5eb07e292e976222b21da85b5d7c40",
+    "Outcome": "completed",
+    "ExitCode": 0,
+    "DurationMs": 158,
+    "ParentExitConfirmed": true,
+    "Stdout": {
+      "Base64": "eyJmYWN0b3IiOjMsInZhbHVlcyI6WzksMTgsMjddfQ0K",
+      "Sha256": "f4bb374975fa1b3524b9d1a5d96df57cb9b24becdcfe769c51c0515f42047d16",
+      "Bytes": 33,
+      "Truncated": false
+    },
+    "Stderr": {
+      "Base64": "",
+      "Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "Bytes": 0,
+      "Truncated": false
+    },
+    "InputsAfter": {
+      "demo/input.json": "35c2cde4f2e3b9d00c7f2fe942b2f8e573a0800fd20e0326cfb3e5130839183d"
+    },
+    "OutputsBefore": {
+      "demo/result.json": "bf4def8eb0ee94341758a02c23359dd117fafa845a458072cd314e1b856c71e9"
+    },
+    "OutputsAfter": {
+      "demo/result.json": "11d1a2e06b6a1300364bb4d97f966d402b2dd6f95c41d83efd5e719966e8b434"
+    },
+    "Notes": []
+  },
+  "Sha256": "a2c30f10386f7f5e17820f1197fd2e27de27b8cd5547ab4cf567b3053ff89e66"
+}

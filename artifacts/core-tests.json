@@ -1,0 +1,163 @@
+{
+  "tested_source_files": {
+    "Directory.Build.props": "3ae8c374ff638c7aeb55846422c591cbfb39f12a82d5fad45566e3f709379cc3",
+    "NuGet.Config": "288e7ea6a4e6262902d19228109822b09383dfc751d9b182b4eb67b08089c3fc",
+    "global.json": "c4e49f7851e10ba7c0c85f0d2054c1ee2369ad5c32dee484c81086c5a7658a57",
+    "src/Core/Notebook.Core.csproj": "d60198e543ec53744e1c2950ca76334c52df53ad5ce7b3b1fc123bc201879ce0",
+    "src/Core/Notebook.cs": "5bd74b31218d1fcd0d7572c2a3b0362fbce7b3a80473d4c75a7f339e2035ff17",
+    "tests/Fixture.cs": "c6565c7a23e4ec4dec8b99d93f3fca70b8d5057f8fc8438e82649434e57b0c5d",
+    "tests/Fixture.csproj": "76a34d6459dd718c5e314d8a00ed4150c4489248139f8af082b59320a73ec452",
+    "tests/Notebook.Tests.csproj": "4c7b89ad8d4ffefc5d02edb3e6b27903abc359a605b023f1825ef28f2e55827f",
+    "tests/Tests.cs": "f9985979e493839678098824310ecd4fb5f342b5973bbe87ae42cbd9240db8ab"
+  },
+  "tested_fixture_files": {
+    "NotebookFixture.dll": "f99c69d1db5859c74d9b1f0c872d2fa10283ef785e37406a0dba95e38d8dd041",
+    "NotebookFixture.exe": "6752391281c44b99e325c7d643659e9a4345c1f69efd38d3ef625831050c2581"
+  },
+  "passed": 35,
+  "total": 35,
+  "checks": [
+    {
+      "name": "Native process produces captured file and exact stdout bytes",
+      "passed": true
+    },
+    {
+      "name": "Same sealed plan reruns against unchanged declared input",
+      "passed": true
+    },
+    {
+      "name": "One-factor environment change yields different committed output",
+      "passed": true
+    },
+    {
+      "name": "Changed input refuses before execution",
+      "passed": true
+    },
+    {
+      "name": "Changed executable refuses before launch",
+      "passed": true
+    },
+    {
+      "name": "Tampered plan fails sealed digest",
+      "passed": true
+    },
+    {
+      "name": "Unsupported schema refused even with recomputed digest",
+      "passed": true
+    },
+    {
+      "name": "Duplicate JSON properties refused",
+      "passed": true
+    },
+    {
+      "name": "Unknown JSON properties refused",
+      "passed": true
+    },
+    {
+      "name": "Oversized JSON refused",
+      "passed": true
+    },
+    {
+      "name": "Traversal absolute drive ADS and backslash paths refused",
+      "passed": true
+    },
+    {
+      "name": "Windows aliases and trailing dot/space paths refused",
+      "passed": true
+    },
+    {
+      "name": "Input output casing collision refused",
+      "passed": true
+    },
+    {
+      "name": "Ancestor output collision refused",
+      "passed": true
+    },
+    {
+      "name": "Notebook internal paths reserved",
+      "passed": true
+    },
+    {
+      "name": "Secret-shaped and ambient environment overrides refused",
+      "passed": true
+    },
+    {
+      "name": "Argument vector preserves shell metacharacters literally",
+      "passed": true
+    },
+    {
+      "name": "Nonzero process exit stays failed",
+      "passed": true
+    },
+    {
+      "name": "Timeout kills owned process and does not claim completion",
+      "passed": true
+    },
+    {
+      "name": "Explicit running cancellation records interruption",
+      "passed": true
+    },
+    {
+      "name": "Pre-cancelled run never launches",
+      "passed": true
+    },
+    {
+      "name": "Bounded stdout captures partial bytes and refuses completion",
+      "passed": true
+    },
+    {
+      "name": "Child receives sealed environment without inherited secret",
+      "passed": true
+    },
+    {
+      "name": "Declared input mutated by child invalidates completion",
+      "passed": true
+    },
+    {
+      "name": "Output directory rejected at preview",
+      "passed": true
+    },
+    {
+      "name": "Oversized declared input rejected",
+      "passed": true
+    },
+    {
+      "name": "Concurrent workspace execution lock refuses second process",
+      "passed": true
+    },
+    {
+      "name": "Receipt tampering detected",
+      "passed": true
+    },
+    {
+      "name": "Resealed inconsistent output commitment rejected",
+      "passed": true
+    },
+    {
+      "name": "Resealed false completion with failure exit rejected",
+      "passed": true
+    },
+    {
+      "name": "Independent anchor detects fully resealed edit",
+      "passed": true
+    },
+    {
+      "name": "Atomic create-new save never overwrites evidence",
+      "passed": true
+    },
+    {
+      "name": "Unicode input identity survives strict plan serialization",
+      "passed": true
+    },
+    {
+      "name": "Malformed Unicode path and aggregate argv size refused",
+      "passed": true
+    },
+    {
+      "name": "Plan object edits after launch do not change captured execution",
+      "passed": true
+    }
+  ],
+  "nativeProcessesExecuted": true,
+  "scope": "Synthetic owned fixture. No installed Warp, PTY, cloud, SSH or remote commands."
+}

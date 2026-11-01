@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "files_and_nested_entries": 291,
+  "PE_entries": 270,
+  "marker_hits": [],
+  "scope": "ASCII and UTF16LE current workspace and local user-prefix markers; recursive ZIP payloads"
+}

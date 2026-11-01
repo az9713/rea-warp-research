@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": [
+    "real native form opened",
+    "Run disabled before preview",
+    "synthetic prepare starts no child",
+    "preview enables explicit run",
+    "actual Run click executes fixture",
+    "edit invalidates sealed preview",
+    "second explicit click factor3 changes committed artifact",
+    "native baseline/candidate grid and output agree"
+  ],
+  "installedWarpTouched": false,
+  "runtime_files": {
+    "ResearchNotebook.exe": "9233ab84f0f3002c84f56b89c2b9f91b05e639afd8d7f5a654fac2e4a6b35652",
+    "ResearchNotebook.dll": "abbeb34ee671898a82ddf9c8e5a683827ec956dbd8475c5e61c99ccda9a8d86b",
+    "Notebook.Core.dll": "7b5ea327c22bdcdeb3f0c307832079a798d4cf6abfae3b616796d967b13cdd5c",
+    "NotebookFixture.exe": "6752391281c44b99e325c7d643659e9a4345c1f69efd38d3ef625831050c2581",
+    "NotebookFixture.dll": "f99c69d1db5859c74d9b1f0c872d2fa10283ef785e37406a0dba95e38d8dd041"
+  }
+}
