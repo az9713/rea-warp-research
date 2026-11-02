@@ -12,6 +12,18 @@ You ran a data-processing command last week and want to compare it with today's 
 
 [Live guide](https://az9713.github.io/rea-warp-research/) · [Download packages](https://github.com/az9713/rea-warp-research/releases/tag/v0.1.0)
 
+<!-- rea-release-expectations:start -->
+## What to expect from this release
+
+**Status: experimental.** Read the tested scope and remaining work below before choosing this release for your workflow.
+
+- **What you get:** A standalone Windows command notebook and command-line tool. Its saved run records and comparison controls live outside the Warp terminal.
+- **Verified so far:** Real local child-process runs, changed-input checks, native controls, browser examples and extracted executable behavior were tested using the supplied program.
+- **Still needs testing or implementation:** Compatibility with a broad range of developer tools and Windows environments has not been established. The restricted execution environment requires explicit adaptation for many ordinary tools.
+- **Relationship to the original app:** Installing it does not add notebook controls to Warp. Interactive terminals, SSH and Warp cloud features are outside this release; a workflow embedded in Warp would be a separate integration project.
+
+<!-- rea-release-expectations:end -->
+
 ![Actual native app after two explicit synthetic runs](docs/screenshots/native-before-after.png)
 
 
